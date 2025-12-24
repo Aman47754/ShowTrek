@@ -1,0 +1,17 @@
+import React from 'react'
+import HeroSection from '../components/HeroSection'
+import FeaturedSection from '../components/FeaturedSection'
+import TrailerSection from '../components/TrailerSection'
+
+function Home() {
+  return (
+    <>
+    <HeroSection></HeroSection>
+    <FeaturedSection></FeaturedSection>
+    <TrailerSection></TrailerSection>
+    </>
+    
+  )
+}
+
+export default Home
